@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewData["Title"] = "ProgramarAsignatura";
+    
+}
+
+<body>
+    <h1 class="col-lg-6 offset-lg-5 ">Programar Asignatura</h1>
+
+    <nav class=" navbar navbar-expand-sm bg-dark navbar-dark  justify-content-center" style="color:#DBF9FC">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/Administrador/BuscarCoordinador">Buscar</a>
+               
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Coordinador/ProgramarAsignatura">Programar Asignatura</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Coordinador/Homologacion">Homologacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Coordinador/Entrevistas">Entrevistas </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Coordinador/ReportesC">Reportes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Administrador/Login" style="color:blue;"> Cerrar Sesion</a>
+
+            </li>
+        </ul>
+    </nav>
+    <br />
+    <br />
+  
+
+            <div>
+
+
+                <div class="row">
+                    <div class="col-sm-4 justify-content-md-center align-items-center ">
+                        <h4> Periodo Academico </h4>
+                        <input type="text" class="form-control col-sm-3" id="academicotxt"  name="academico">
+                    </div>
+
+                    <div class="col-sm-4 justify-content-md-center align-items-center ">
+                        <h4> Programas </h4>
+                        <select class="form-select col-sm-7">
+                            <option>          </option>
+                            <option> Maestría en Gestión de La  Información </option>
+                            <option> Especialización en Seguridad de la Información</option>
+                            <option> Maestría en Medio Ambiente </option>
+
+                        </select>
+
+                    </div>
+                </div>
+            </div>
+        <br />
+        <br />
+
+       
+         <table class="table table-bordered">
+      <thead>
+          <tr>
+                 <th>Fecha</th>
+                    <th>Sala o Aula</th>
+                    <th>Asignatura</th>
+                    <th>Cod_Asignatura</th>
+                    <th>Opcion</th>
+                                       
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>01/02/23</td>
+              <td>S-210</td>
+              <td>Construcción Software</td>
+              <td>3145896458           
+              <td> <button style="background-color: #171718; color:white"  type="BUTTON" class="btn btn-outline-primary">Agregar</button> </td>              
+          </tr>
+      </tbody>
+  </table>
+
+        </body>
+
